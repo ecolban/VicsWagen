@@ -36,7 +36,7 @@ public class VicsWagenActivity extends IOIOActivity {
     public void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
 	/*
-	 * Since the android device is carried by the iRobot Create, we want to
+	 * Since the android device is carried by the VicsWagen, we want to
 	 * prevent a change of orientation, which would cause the activity to
 	 * pause.
 	 */
@@ -103,7 +103,7 @@ public class VicsWagenActivity extends IOIOActivity {
     }
 
     /**
-     * Writes a message to the Dashboard instance.
+     * Writes a message to the Android screen.
      * 
      * @param msg
      *            the message to write
